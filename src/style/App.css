@@ -1,0 +1,27 @@
+h1{
+  text-align: center;
+}
+h3{
+  padding: 5px;
+}
+.checklist-item-container{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+.checklist-item-container_item{
+  padding: 5px;
+}
+.id{
+  font-weight: 500;
+  color:cornflowerblue
+}
+.from{
+  font-style: italic;
+}
+
+.date{
+  color:cornflowerblue
+}
