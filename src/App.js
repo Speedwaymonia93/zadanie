@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from "react";
 import { data } from "./data/data";
-//import ChecklistItem from "./ChecklistItem";
 import "./style/App.css";
 
 const ChecklistItem = React.lazy(() => import('./ChecklistItem'));
@@ -9,7 +8,6 @@ const ChecklistItem = React.lazy(() => import('./ChecklistItem'));
 const App = () => {
     const [activeItemsCount, setActiveItemsCount] = useState(0);
   
-    //Looping over data
     const items = data.map((item) => {
       return (
           <>
