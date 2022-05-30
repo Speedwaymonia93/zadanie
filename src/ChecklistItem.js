@@ -26,4 +26,4 @@ const ChecklistItem = ({checked, setActiveItemsCount }) => {
 
 };
 
-export default ChecklistItem;
+export default React.memo(ChecklistItem);
